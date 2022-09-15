@@ -207,7 +207,7 @@
                     <img class="businessman-img" src="./Images/delivering-document-addressee-flat-illustration-courier-errand-boy-giving-envelope-parcel-isolated-cartoon-character-white-background-businessman-manager-receiving-business-correspondence_106317-11090 1.png" alt="business-man-manager">
                 </div>
                 <div class="form">
-                    <form action="" method="POST">
+                    <form action="https://ejozeebackend.herokuapp.com/errandSender" method="POST">
                         <div class="fullname">
                             <div class="firstname">
                                 <input type="text" name="firstname" id="firstname" placeholder="First Name*">
@@ -386,7 +386,7 @@
                 <img src="./Images/errand-cartoon.png" alt="errand-cartoon">
             </div>
 
-            <form class="errand-body">
+            <form action="https://ejozeebackend.herokuapp.com/errandRunner" method="POST" class="errand-body">
                 <div class="errand-body-fullName">
                     <input type="text" class="errand-body-firstname" name="firstName" for="firstName" placeholder="First Name*"/>
                     <input type="text" class="errand-body-lastname" name="lastName" for="LastName" placeholder="Last Name*"/>
